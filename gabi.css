@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: black ;
+
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #96A5EA;
+    clip-path: circle(50% at bottom right);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+   
+}
+
+nav ul li a:hover {
+    color: #96A5EA;
+}
+
+h1{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 90px;
+}
+
+h2{
+    font-size: 70px; 
+    top: 180px;
+    left: 310px;
+    color: #EEBFB5;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .boximg{
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+    }
+    
+    .boximg img{
+        animation-name: boneco;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    
+        width: 450px;
+    }
+    
+    @keyframes boneco { /* animação */
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.04)
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .tithard{
+        color:#EEBFB5;
+        font-size: 60px;
+        left: 15%; 
+        position: absolute;
+        top: 330px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    }
+
+    .text1{
+        font-size: 30px;
+        color: white;
+        top: 420px;
+        left: 170px;
+        position:absolute;
+    }
+
+    .titsoft{
+        color:#EEBFB5;
+        font-size: 60px;
+        left: 15%; 
+        position: absolute;
+        top: 600px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    }
+
+    .text2{
+        font-size: 30px;
+        color: white;
+        top: 670px;
+        left: 210px;
+        position:absolute;
+    }
+
+    .metas{
+        color:#EEBFB5;
+        font-size: 60px;
+        left: 15%; 
+        position: absolute;
+        top: 850px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    }
+
+    .cp{
+        color:#080C59;
+        font-size: 50px;
+        left: 15%; 
+        position: absolute;
+        top: 900px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;  
+    }
+
+    .text3{
+        font-size: 20px;
+        color: white;
+        top: 950px;
+        left: 250px;
+        position:absolute; 
+    }
+
+    .mp{
+        color:#080C59;
+        font-size: 50px;
+        left: 15%; 
+        position: absolute;
+        top: 1000px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;   
+    }
+
+    .text4{
+        font-size: 20px;
+        color: white;
+        top: 1050px;
+        left: 250px;
+        position:absolute; 
+    }
+
+    .lp{
+        color:#080C59;
+        font-size: 50px;
+        left: 15%; 
+        position: absolute;
+        top: 1100px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;    
+    }
+
+    .text5{
+        font-size: 20px;
+        color: white;
+        top: 1150px;
+        left: 250px;
+        position:absolute;  
+    }
+
+    footer {
+        background-color: #96A5EA;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin-top: 100px;
+    }
